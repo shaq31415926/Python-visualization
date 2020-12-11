@@ -9,5 +9,5 @@ Jupyter Notebooks with Python 3.7 +
 
 
 #### Structure
-notebooks/01-sh-data-prep.ipynb
-notebooks/02-sh-eda.ipynb
+* notebooks/01-sh-data-prep.ipynb
+* notebooks/02-sh-eda.ipynb

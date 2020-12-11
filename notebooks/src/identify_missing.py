@@ -35,6 +35,4 @@ def identify_missing(data, missing_threshold):
     plot_missing(missing_stats)
 
     to_drop = list(record_missing['feature'])
-
-    print('%d features with greater than %0.2f missing values.\n' % (
-            len(to_drop), missing_threshold))
+    print(f'{len(to_drop)} feature(s with greater than {missing_threshold}% missing values\n')
